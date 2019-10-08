@@ -8,7 +8,8 @@ import os
 import socket
 import subprocess
 
-host = '192.168.1.226'
+# ip address of listening machine. blank for localhost
+host = ''
 port = 9999
 sock = socket.socket()
 sock.connect((host, port))
